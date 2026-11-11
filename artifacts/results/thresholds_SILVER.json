@@ -1,0 +1,7 @@
+{
+  "tau_low": 0.4,
+  "tau_high": 0.9,
+  "macro_f1_dev": 0.5458,
+  "macro_f1_heldout": 0.4444,
+  "label_source": "silver-msmarco"
+}

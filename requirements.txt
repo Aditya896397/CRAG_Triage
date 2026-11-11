@@ -1,0 +1,28 @@
+# Python 3.11. Versions are pinned because Windows Smart App Control blocks
+# some newer binary wheels (pandas 3.x, torch 2.15, shap 0.51) on this machine.
+# Install PyTorch (CPU) first:
+#   pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.13.1
+scikit-learn==1.5.2
+imbalanced-learn==0.12.4
+lightgbm==4.5.0
+xgboost==2.1.3
+pytorch-tabnet==4.1.0
+shap==0.46.0
+numba==0.60.0
+joblib>=1.3
+matplotlib==3.9.2
+requests>=2.31
+python-dotenv>=1.0
+rank-bm25==0.2.2
+chromadb==0.5.23
+transformers==4.46.3
+sentence-transformers==3.3.1
+langgraph==0.2.60
+groq>=0.13
+streamlit==1.40.2
+pyarrow==16.1.0
+plotly==5.24.1
+pytest>=8.0

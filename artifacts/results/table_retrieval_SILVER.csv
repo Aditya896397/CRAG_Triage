@@ -1,0 +1,6 @@
+Query source,Retriever,nDCG@5,P@5,alerts
+Generic,Hybrid,0.3558,0.186,100
+All abnormal (no SHAP),Hybrid,0.6502,0.382,100
+SHAP-guided,BM25,0.5105,0.408,100
+SHAP-guided,Dense (BGE),0.4086,0.26,100
+SHAP-guided,Hybrid,0.5053,0.336,100

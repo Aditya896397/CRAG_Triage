@@ -1,0 +1,21 @@
+# environment and secrets
+.venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.claude/
+
+# large or regenerable data (see README: download_data.py, build_kb.py, train.py)
+data/
+artifacts/index/
+artifacts/models/
+
+# PubMed abstract text is publisher-copyrighted; regenerate with scripts/build_kb.py
+knowledge/pubmed_corpus.jsonl
+artifacts/annotation/
+
+# logs and build outputs
+*.log
+*.tmp
+paper/*.zip

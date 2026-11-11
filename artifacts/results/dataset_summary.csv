@@ -1,0 +1,6 @@
+,Hospital A (train/val),Hospital B (test)
+patients,20336.0,20000.0
+hourly_records,790215.0,761995.0
+septic_patients,1790.0,1142.0
+septic_patients_pct,8.8,5.71
+positive_rows_pct,2.17,1.41

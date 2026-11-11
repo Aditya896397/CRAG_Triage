@@ -1,0 +1,6 @@
+Configuration,Faithfulness,Answer relevancy,Citation precision,Latency (s),cases
+Standard RAG,,0.988,1.0,8.39,30
+Grader filter only,,0.9265,1.0,6.63,30
+"CRAG, MS MARCO grader",,0.9872,1.0,6.48,30
+"CRAG, MedCPT grader",,0.9266,1.0,16.31,30
+"CRAG, BioBERT grader",,0.7512,1.0,10.31,30
